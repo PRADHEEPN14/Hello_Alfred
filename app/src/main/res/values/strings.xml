@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Hello Alfred</string>
+    <string name="app_intro1_heading">Keep your health</string>
+    <string name="app_intro2_heading">Intelligent Prompts</string>
+    <string name="app_intro3_heading">Let’s monitor</string>
+    <string name="account_type">Type of Account</string>
+    <string name="sign_in"><font color="#566170">Back to </font><b><font color="#1C77CA"> Sign In</font></b></string>
+    <string name="app_intro1_description">Considers the as-is state and the vital health info of the patient and suggests an optimal path for better health</string>
+    <string name="app_intro2_description">Provides the patient with intelligent prompts and sends behavioral nudges to motivate and continue to hit the key milestones in their better well-being journey.</string>
+    <string name="app_intro3_description">Collects data over a period and displays the patient’s journey outcomes by analyzing information from well-being/health apps, change of lifestyle</string>
+    <string name="app_description">Disclaimer: By using this app, users acknowledge that they understand and accept the limitations of the information provided, and they agree that the app\'s creators and developers are not responsible for any adverse outcomes arising from its use. Always consult with a healthcare professional for accurate and personalized medical advice.</string>
 </resources>

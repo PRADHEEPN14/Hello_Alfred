@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.helloalfred"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.helloalfred"
@@ -52,7 +52,7 @@ dependencies {
     // retrofit and gson converter
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation (")com.squareup.okhttp3:okhttp:4.9.0")
+    implementation ("com.squareup.okhttp3:okhttp:4.12.0")
     implementation ("com.squareup.okhttp3:logging-interceptor:4.9.0")
 
 }
