@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import com.example.helloalfred.R
+import com.helloalfred.utils.fullwindow.StatusBarUtil
 import com.helloalfred.view.ui.app_intro.AppIntroActivity
 
 class SplashscreenActivity : AppCompatActivity() {
@@ -17,6 +18,8 @@ class SplashscreenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
         redirectAppIntro()
+        //full screen method..
+        StatusBarUtil.setTransparentStatusBar(window)
     }
    private fun redirectAppIntro(){
        runnable= Runnable {

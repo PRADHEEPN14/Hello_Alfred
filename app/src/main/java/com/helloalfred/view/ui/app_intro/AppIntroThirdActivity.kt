@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.helloalfred.R
 import com.example.helloalfred.databinding.ActivityAppIntroThirdBinding
 import com.helloalfred.utils.IntentUtils.IntentUtils
+import com.helloalfred.utils.fullwindow.StatusBarUtil
 import com.helloalfred.view.ui.account_type.AccountTypeActivity
 
 class AppIntroThirdActivity : AppCompatActivity() {
@@ -14,6 +15,9 @@ class AppIntroThirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityAppIntroThirdBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //full screen method..
+        StatusBarUtil.setTransparentStatusBar(window)
 
         binding.nextImageView.setOnClickListener {
             IntentUtils.redirectToNextAppIntro<AccountTypeActivity>(this)
